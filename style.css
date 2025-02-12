@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ededed;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    border: 0.2px solid rgb(114, 112, 112);
+    width:700px;
+    height: 100%;
+    margin-left: 500px;
+}
+#summary
+{
+    word-spacing: 12px;
+}
+#education{
+    word-spacing: 3px;
+}
+#experience{
+    word-spacing: 2px;
+}
+h1{
+    font-size:45px;
+}
+h4{
+    font-size: 30px;
+    color: #5e4242;
+    font-weight: 100;
+}
+.profile
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.profile .image 
+{
+    height:250x;
+    width:200px;
+    box-shadow: #333;
+    
+}
+h2{
+    background-color: rgb(109, 108, 105);
+    color: aliceblue;
+    padding: 5px;
+    font-size: 20px;
+}
+.main
+{
+   margin: 100px;
+   margin-left: 40px;
+}
+ul li {
+    list-style-type: none;
+}
+.profile ul li
+{
+    font-size: 20px;
+}
+.row
+{
+    display: flex;
+}
+#education .one_column
+{
+    width: 50%;
+    display: flex;
+}
+#education .two_column
+{
+    width: 50%;
+    display: flex;
+}
+.skills
+{
+    display: flex;
+}
+.skills .skills_one{
+    width: 40%;
+}
+.languages_one{
+    width:40%;
+    margin-left: 20%;
+}
+.skills
+{
+
+}
